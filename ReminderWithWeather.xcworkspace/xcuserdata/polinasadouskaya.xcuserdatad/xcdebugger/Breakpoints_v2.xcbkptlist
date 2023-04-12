@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6AD910C7-DF65-4FBD-AF67-2C455A2B3439"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8517930A-226E-4D30-BAE2-9F6777379953"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReminderWithWeather/models/EventHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "updateEvent(event:name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "371B69A5-6F4C-4A9B-826A-BC2EBFA1A62D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReminderWithWeatherUITests/ReminderWithWeatherUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "testUpdateEvent()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "371B69A5-6F4C-4A9B-826A-BC2EBFA1A62D - 30936d6795771dc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReminderWithWeatherUITests.ReminderWithWeatherUITests.testUpdateEvent() throws -&gt; ()"
+                  moduleName = "ReminderWithWeatherUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polinasadouskaya/Desktop/Udemy%20Swift%20course/projects/ReminderWithWeather/ReminderWithWeatherUITests/ReminderWithWeatherUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "4663">
+               </Location>
+               <Location
+                  uuid = "371B69A5-6F4C-4A9B-826A-BC2EBFA1A62D - 30936d6795771dc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReminderWithWeatherUITests.ReminderWithWeatherUITests.testUpdateEvent() throws -&gt; ()"
+                  moduleName = "ReminderWithWeatherUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polinasadouskaya/Desktop/Udemy%20Swift%20course/projects/ReminderWithWeather/ReminderWithWeatherUITests/ReminderWithWeatherUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "4075">
+               </Location>
+               <Location
+                  uuid = "371B69A5-6F4C-4A9B-826A-BC2EBFA1A62D - 30936d6795771ea1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReminderWithWeatherUITests.ReminderWithWeatherUITests.testUpdateEvent() throws -&gt; ()"
+                  moduleName = "ReminderWithWeatherUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polinasadouskaya/Desktop/Udemy%20Swift%20course/projects/ReminderWithWeather/ReminderWithWeatherUITests/ReminderWithWeatherUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "3897">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E5B54E0-5C20-4315-9186-A6A5F75A3E2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReminderWithWeatherUITests/ReminderWithWeatherUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "testUpdateEvent()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E864871-2844-45A0-8F00-749CB0AAEADB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReminderWithWeatherUITests/ReminderWithWeatherUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "testAddNewEvent()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2E864871-2844-45A0-8F00-749CB0AAEADB - b95320e10ff38fc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReminderWithWeatherUITests.ReminderWithWeatherUITests.testAddNewEvent() throws -&gt; ()"
+                  moduleName = "ReminderWithWeatherUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polinasadouskaya/Desktop/Udemy%20Swift%20course/projects/ReminderWithWeather/ReminderWithWeatherUITests/ReminderWithWeatherUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "2870">
+               </Location>
+               <Location
+                  uuid = "2E864871-2844-45A0-8F00-749CB0AAEADB - b95320e10ff3806f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReminderWithWeatherUITests.ReminderWithWeatherUITests.testAddNewEvent() throws -&gt; ()"
+                  moduleName = "ReminderWithWeatherUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polinasadouskaya/Desktop/Udemy%20Swift%20course/projects/ReminderWithWeather/ReminderWithWeatherUITests/ReminderWithWeatherUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "2843">
+               </Location>
+               <Location
+                  uuid = "2E864871-2844-45A0-8F00-749CB0AAEADB - b95320e10ff38029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReminderWithWeatherUITests.ReminderWithWeatherUITests.testAddNewEvent() throws -&gt; ()"
+                  moduleName = "ReminderWithWeatherUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/polinasadouskaya/Desktop/Udemy%20Swift%20course/projects/ReminderWithWeather/ReminderWithWeatherUITests/ReminderWithWeatherUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "2550">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF6820FC-B5AC-40CA-892E-F549BEAEB9D9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReminderWithWeatherUITests/ReminderWithWeatherUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "testOutsideEventsFilter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
