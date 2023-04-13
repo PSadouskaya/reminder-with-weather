@@ -13,10 +13,15 @@ final class ReminderWithWeatherUITests: XCTestCase {
     let alertDescription = "Allow 'ReminderWithWeather' to use your location?"
     
     func dismissKeyboardIfPresent(app: XCUIApplication) {
+        var returneTapped = false
         if app.keyboards.element(boundBy: 0).exists {
             if app.keyboards.buttons["return"].exists {
-                app.keyboards.buttons["return"].tap()
-            } else {
+                if app.keyboards.buttons["return"].isHittable{
+                    app.keyboards.buttons["return"].tap()
+                    returneTapped = true
+                }
+            }
+            if returneTapped != true {
                 do {
                     try app.buttons["Continue"].tap()
                 } catch {
