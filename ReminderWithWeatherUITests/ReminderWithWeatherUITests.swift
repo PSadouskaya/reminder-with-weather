@@ -14,11 +14,7 @@ final class ReminderWithWeatherUITests: XCTestCase {
     
     func dismissKeyboardIfPresent(app: XCUIApplication) {
         if app.keyboards.element(boundBy: 0).exists {
-            if UIDevice.current.userInterfaceIdiom == .pad {
-                app.keyboards.buttons["Hide keyboard"].tap()
-            } else {
-                app.toolbars.buttons["return"].tap()
-            }
+            app.keyboards.buttons["return"].tap()   
         }
     }
 

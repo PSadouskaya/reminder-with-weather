@@ -29,6 +29,8 @@ struct TestData {
         
         formatter.dateFormat = ("EEEE, MMMM d")
         formatter.locale = Locale(identifier: "EN-us")
+        //formatter.dateFormat = ("EEEE, d MMMM")
+        //formatter.locale = Locale(identifier: "RU-ru")
         let result = formatter.string(from: newDate!)
         return result
     }

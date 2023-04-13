@@ -158,6 +158,7 @@
                                     </label>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="rhU-3m-V4O">
                                         <rect key="frame" x="0.0" y="179" width="394" height="50"/>
+                                        <locale key="locale" localeIdentifier="en_US"/>
                                     </datePicker>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRh-Of-CL7">
                                         <rect key="frame" x="0.0" y="239" width="394" height="20.333333333333314"/>
