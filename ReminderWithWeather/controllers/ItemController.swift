@@ -87,6 +87,9 @@ class ItemController: UIViewController {
         placeButton.setTitle(S.placeButtonText, for: .normal)
         saveButton.setTitle(S.saveButtonText, for: .normal)
         
+        itemName.delegate = self
+        itemDesc.delegate = self
+        
         let menuHandler = MenuItemsHandler(delegate: self)
         menuHandler.configure()
         
@@ -122,4 +125,14 @@ extension ItemController:HasMenuButton {
     }
     
     
+}
+
+extension ItemController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        return textField.resignFirstResponder()
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }
