@@ -9,6 +9,11 @@ import XCTest
 
 final class ReminderWithWeatherUITests: XCTestCase {
     
+    var interruptionMonitor: NSObjectProtocol!
+    let alertDescription = "Allow 'ReminderWithWeather' to use your location?"
+    
+    
+    
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -24,7 +29,7 @@ final class ReminderWithWeatherUITests: XCTestCase {
     } 
     
     
-    func testListEvents() throws {
+    func test_01_ListEvents() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
@@ -38,7 +43,7 @@ final class ReminderWithWeatherUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
-    func testOutsideEventsFilter() throws {
+    func test_02_OutsideEventsFilter() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
@@ -53,7 +58,7 @@ final class ReminderWithWeatherUITests: XCTestCase {
             XCTAssert(c.images.matching(identifier: "sun.max.circle").element.exists)
         }
     }
-    func testInsideEventsFilter() throws {
+    func test_03_InsideEventsFilter() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
@@ -69,7 +74,7 @@ final class ReminderWithWeatherUITests: XCTestCase {
         }
     }
     
-    func testAddNewEvent() throws {
+    func test_04_AddNewEvent() throws {
         let identifier = Int.random(in: 0 ... 1000)
         let testData = TestData(name: "Test add new item \(identifier)",
                                 description: "Description new item \(identifier)",
@@ -97,7 +102,7 @@ final class ReminderWithWeatherUITests: XCTestCase {
         XCTAssert(app.staticTexts[testData.name].exists)
     }
     
-    func testUpdateEvent() throws {
+    func test_05_UpdateEvent() throws {
         // UI tests must launch the application that they test.
         let identifier = Int.random(in: 0 ... 1000)
         var testData = TestData(name: "Test update item \(identifier)",
@@ -118,7 +123,17 @@ final class ReminderWithWeatherUITests: XCTestCase {
         cell.tap()
         app.buttons["Edit"].tap()
         
-       
+        self.interruptionMonitor = addUIInterruptionMonitor(withDescription: self.alertDescription) { (alert) -> Bool in
+                    // check for a specific button
+                    if alert.buttons["Allow While Using App"].exists {
+                        alert.buttons["Allow While Using App"].tap()
+                        return true
+                    }
+
+                    return false
+                }
+        sleep(5)
+        
         app.textFields["Name"].clearAndEnterText(text: testData.name)
         app.textFields["Description"].clearAndEnterText(text: testData.description)
         
@@ -145,7 +160,7 @@ final class ReminderWithWeatherUITests: XCTestCase {
               
     }
 
-    func testDeleteEvent() throws {
+    func test_06_DeleteEvent() throws {
         // UI tests must launch the application that they test.
         
         let app = XCUIApplication()
@@ -162,7 +177,7 @@ final class ReminderWithWeatherUITests: XCTestCase {
     }
 
 
-    func testCheckWeatherSetForEvent() throws {
+    func test_07_CheckWeatherSetForEvent() throws {
         let app = XCUIApplication()
         app.launch()
         let table = app.tables.firstMatch
