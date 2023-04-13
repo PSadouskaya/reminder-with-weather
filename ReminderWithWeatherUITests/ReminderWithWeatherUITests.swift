@@ -49,8 +49,7 @@ final class ReminderWithWeatherUITests: XCTestCase {
         app.buttons["dismiss popup"].tap()
         //app.buttons["Date and Time Picker"].tap()
         
-        app.buttons["typeOfEvent"].tap()
-        app.buttons[testData.type].tap()
+        
         app.buttons["Save"].tap()
         
         XCTAssert(app.staticTexts[testData.name].exists)
