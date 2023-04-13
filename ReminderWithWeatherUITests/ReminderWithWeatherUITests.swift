@@ -14,7 +14,15 @@ final class ReminderWithWeatherUITests: XCTestCase {
     
     func dismissKeyboardIfPresent(app: XCUIApplication) {
         if app.keyboards.element(boundBy: 0).exists {
-            app.keyboards.buttons["return"].tap()   
+            if app.keyboards.buttons["return"].exists {
+                app.keyboards.buttons["return"].tap()
+            } else {
+                do {
+                    try app.buttons["Continue"].tap()
+                } catch {
+                    XCTFail("Error with keyboard")
+                }
+            }
         }
     }
 
