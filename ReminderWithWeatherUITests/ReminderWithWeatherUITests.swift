@@ -28,6 +28,7 @@ final class ReminderWithWeatherUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
+        app.tables.cells.firstMatch.waitForExistence(timeout: 10000.0)
         let cell = app.tables.cells.firstMatch
         XCTAssert(cell.images["typeImage"].exists)
         XCTAssert(cell.staticTexts["cellName"].exists)
