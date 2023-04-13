@@ -17,7 +17,7 @@ final class ReminderWithWeatherUITests: XCTestCase {
             if UIDevice.current.userInterfaceIdiom == .pad {
                 app.keyboards.buttons["Hide keyboard"].tap()
             } else {
-                app.toolbars.buttons["Done"].tap()
+                app.toolbars.buttons["return"].tap()
             }
         }
     }
