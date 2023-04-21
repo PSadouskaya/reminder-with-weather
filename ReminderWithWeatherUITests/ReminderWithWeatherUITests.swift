@@ -39,9 +39,8 @@ final class ReminderWithWeatherUITests: XCTestCase {
     } 
     
     func test01AddNewEventAllType() throws {
-        let identifier = Int.random(in: 0 ... 1000)
-        let testData = TestData(name: "Test add new item \(identifier)",
-                                description: "Description new item \(identifier)",
+        let testData = TestData(name: "Test add new item",
+                                description: "Description new item",
                                 type: "All",
                                 date: "18-04-2023")
                
@@ -66,9 +65,8 @@ final class ReminderWithWeatherUITests: XCTestCase {
     }
     
     func test01AddNewEventInsideType() throws {
-        let identifier = Int.random(in: 0 ... 1000)
-        let testData = TestData(name: "Test add new item \(identifier)",
-                                description: "Description new item \(identifier)",
+        let testData = TestData(name: "Test add new item",
+                                description: "Description new item",
                                 type: "Inside events",
                                 date: "18-04-2023")
                
@@ -95,9 +93,8 @@ final class ReminderWithWeatherUITests: XCTestCase {
     }
     
     func test01AddNewEventOutsideType() throws {
-        let identifier = Int.random(in: 0 ... 1000)
-        let testData = TestData(name: "Test add new item \(identifier)",
-                                description: "Description new item \(identifier)",
+        let testData = TestData(name: "Test add new item ",
+                                description: "Description new item",
                                 type: "Outside events",
                                 date: "18-04-2023")
                

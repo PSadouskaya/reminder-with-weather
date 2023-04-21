@@ -70,6 +70,23 @@ struct WeatherManager {
         }
     }
     
+    func parseJsonToObject(weatherData: Data) -> WeatherDataModel?{
+        let decoder = JSONDecoder()
+        print(weatherData)
+        do {
+            let decodedData = try decoder.decode(WeatherDataModel.self, from: weatherData)
+            let temperature = decodedData.days[0].temp
+            let date = decodedData.days[0].datetime
+            //
+            
+            print("Temperature is \(temperature) for date \(date)")
+            return decodedData
+        } catch {
+            print(error)
+            return nil
+        }
+    }
+    
     func getColorByTemperature(tempr: Double) -> UIColor {
         var color = UIColor(red: 0.95, green: 0.91, blue: 1.00, alpha: 0.00)
         switch tempr {

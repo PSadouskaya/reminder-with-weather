@@ -10,6 +10,7 @@
 		514B312053D012C0A5C32908 /* Pods_ReminderWithWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D82B26273CA0B114B687D /* Pods_ReminderWithWeather.framework */; };
 		87C560DD03A1AC53A34611AC /* Pods_ReminderWithWeather_ReminderWithWeatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523936C7E46A1FC80D71907B /* Pods_ReminderWithWeather_ReminderWithWeatherUITests.framework */; };
 		8A9778A78E0E3AD2E79A08BB /* Pods_ReminderWithWeatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE4192A32916C3C09ABEB95 /* Pods_ReminderWithWeatherTests.framework */; };
+		8F5CB0E629E7E9C100B40FDF /* ReminderWithWeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5CB0E529E7E9C100B40FDF /* ReminderWithWeatherUITestsLaunchTests.swift */; };
 		8F9421D329DADE9700BD2F37 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9421D229DADE9700BD2F37 /* WeatherManager.swift */; };
 		8F9421D729DAE05A00BD2F37 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9421D629DAE05A00BD2F37 /* WeatherDataModel.swift */; };
 		8F9421DB29DB178500BD2F37 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9421DA29DB178500BD2F37 /* Helper.swift */; };
@@ -28,7 +29,6 @@
 		8FC5ED3329D213BC000CA2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC5ED3129D213BC000CA2D2 /* LaunchScreen.storyboard */; };
 		8FC5ED3E29D213BC000CA2D2 /* ReminderWithWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC5ED3D29D213BC000CA2D2 /* ReminderWithWeatherTests.swift */; };
 		8FC5ED4829D213BC000CA2D2 /* ReminderWithWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC5ED4729D213BC000CA2D2 /* ReminderWithWeatherUITests.swift */; };
-		8FC5ED4A29D213BC000CA2D2 /* ReminderWithWeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC5ED4929D213BC000CA2D2 /* ReminderWithWeatherUITestsLaunchTests.swift */; };
 		8FC5ED5B29D23199000CA2D2 /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC5ED5A29D23199000CA2D2 /* ItemController.swift */; };
 		8FC5ED6029D2375B000CA2D2 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FC5ED5F29D2375B000CA2D2 /* Pacifico-Regular.ttf */; };
 		8FC8200529DBF6DD00312F0F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC8200429DBF6DD00312F0F /* Helper.swift */; };
@@ -59,6 +59,7 @@
 		523936C7E46A1FC80D71907B /* Pods_ReminderWithWeather_ReminderWithWeatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReminderWithWeather_ReminderWithWeatherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		690D82B26273CA0B114B687D /* Pods_ReminderWithWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReminderWithWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE4192A32916C3C09ABEB95 /* Pods_ReminderWithWeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReminderWithWeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5CB0E529E7E9C100B40FDF /* ReminderWithWeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderWithWeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8F9421D229DADE9700BD2F37 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		8F9421D629DAE05A00BD2F37 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		8F9421DA29DB178500BD2F37 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		8FC5ED3D29D213BC000CA2D2 /* ReminderWithWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderWithWeatherTests.swift; sourceTree = "<group>"; };
 		8FC5ED4329D213BC000CA2D2 /* ReminderWithWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderWithWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC5ED4729D213BC000CA2D2 /* ReminderWithWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderWithWeatherUITests.swift; sourceTree = "<group>"; };
-		8FC5ED4929D213BC000CA2D2 /* ReminderWithWeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderWithWeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8FC5ED5A29D23199000CA2D2 /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
 		8FC5ED5F29D2375B000CA2D2 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		8FC8200429DBF6DD00312F0F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -198,9 +198,9 @@
 			isa = PBXGroup;
 			children = (
 				8FC5ED4729D213BC000CA2D2 /* ReminderWithWeatherUITests.swift */,
-				8FC5ED4929D213BC000CA2D2 /* ReminderWithWeatherUITestsLaunchTests.swift */,
 				8FC8200429DBF6DD00312F0F /* Helper.swift */,
 				8FC8200629DC0B8900312F0F /* TestData.swift */,
+				8F5CB0E529E7E9C100B40FDF /* ReminderWithWeatherUITestsLaunchTests.swift */,
 			);
 			path = ReminderWithWeatherUITests;
 			sourceTree = "<group>";
@@ -394,6 +394,7 @@
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReminderWithWeather/Pods-ReminderWithWeather-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -506,9 +507,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC5ED4829D213BC000CA2D2 /* ReminderWithWeatherUITests.swift in Sources */,
-				8FC5ED4A29D213BC000CA2D2 /* ReminderWithWeatherUITestsLaunchTests.swift in Sources */,
 				8FC8200529DBF6DD00312F0F /* Helper.swift in Sources */,
 				8FC8200729DC0B8900312F0F /* TestData.swift in Sources */,
+				8F5CB0E629E7E9C100B40FDF /* ReminderWithWeatherUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

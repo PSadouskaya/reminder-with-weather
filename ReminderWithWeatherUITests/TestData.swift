@@ -15,7 +15,7 @@ struct TestData {
     var dateToChoose: String?
     
     init(name: String, description: String, type: String, date: String) {
-        self.name = name
+        self.name = "\(name) \(Int.random(in: 0 ... 1000))"
         self.description = description
         self.type = type
         self.date = date
